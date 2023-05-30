@@ -47,9 +47,10 @@ ack=c.recv(1024).decode()
 if ack:
  print(ack)
  c.close()
- 
+ ```
  
 ### SERVER :
+```
 # Developed by : S.JAIGANESH
 # Register Number : 212222240037
 import socket
@@ -58,14 +59,18 @@ s.connect(('localhost',8000))
 print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
+```
+
+### OUTPUT:
+## CLIENT:
+![Screenshot (97)](https://github.com/Jaiganesh235/19CS406-EX-1/assets/118657189/587fec7f-d45e-4f14-b2bd-37e61ddd1bbf)
+
+## SERVER:
+![Screenshot (98)](https://github.com/Jaiganesh235/19CS406-EX-1/assets/118657189/b5a323c0-0b9c-4a89-89f5-6a013b7847c6)
 
 
-OUTPUT:
 
-
-
-
-RESULT:
+## RESULT:
 Thus, the program to implement socket programming date and time display from client to server
 using TCP Sockets was successfully executed.
 
