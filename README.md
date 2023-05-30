@@ -61,11 +61,11 @@ print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
 
-### OUTPUT:
-## CLIENT:
+## OUTPUT:
+### CLIENT:
 ![Screenshot (97)](https://github.com/Jaiganesh235/19CS406-EX-1/assets/118657189/587fec7f-d45e-4f14-b2bd-37e61ddd1bbf)
 
-## SERVER:
+### SERVER:
 ![Screenshot (98)](https://github.com/Jaiganesh235/19CS406-EX-1/assets/118657189/b5a323c0-0b9c-4a89-89f5-6a013b7847c6)
 
 
